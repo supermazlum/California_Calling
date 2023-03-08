@@ -1,0 +1,328 @@
+@charset "UTF-8";
+/*=======================
+        GENERALS
+========================*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+@font-face {
+  font-family: WorkSans;
+  src: url("../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: Lora;
+  src: url("../fonts/Lora/Lora-VariableFont_wght.ttf");
+}
+@media only screen and (max-width: 600px) {
+  /* ========================================   
+              Media Queries
+  ==========================================*/
+  /*=======================
+          GLOBAL
+  ========================*/
+}
+/*=======================
+        GLOBAL
+========================*/
+html h1, html h2 {
+  font-size: 8.8rem;
+  font-family: "Lora", Lora;
+}
+html h3 {
+  font-size: 6.4rem;
+  font-family: "Lora", Lora;
+}
+html h4 {
+  font-size: 3.2rem;
+  font-family: "Lora", Lora;
+}
+html p {
+  font-size: 1.6rem;
+  font-family: "WorkSans", WorkSans;
+  font-weight: 600;
+}
+html button {
+  font-size: 2rem;
+  font-family: "WorkSans", WorkSans;
+}
+html .bgcDark {
+  background-color: #000;
+  color: rgb(255, 255, 255);
+}
+html .bgcLight {
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+}
+
+/*=======================
+        ACHTUNG. LÖSCHEN
+========================*/
+html section, footer {
+  border: 1px solid red;
+}
+
+/*=======================
+        HEADER
+========================*/
+header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+header div:nth-of-type(1) img {
+  height: 25.28vh;
+  margin-bottom: 12.64vh;
+}
+header div:nth-of-type(2) h1 {
+  line-height: 80%;
+}
+header div:nth-of-type(2) h1:nth-of-type(1) {
+  margin-top: 2vh;
+}
+header div:nth-of-type(2) h1:nth-of-type(2) {
+  color: black;
+  text-shadow: 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+  margin-bottom: 2vh;
+}
+header article {
+  margin-top: 12vh;
+  width: 83vw;
+  display: flex;
+  justify-content: space-between;
+}
+header article div:nth-of-type(1) img {
+  width: 4.22vw;
+  max-height: 7vh;
+  justify-self: flex-start;
+}
+header article div:nth-of-type(2) button {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  padding: 2vh 3.5vw;
+  margin: 0;
+  cursor: pointer;
+}
+header article div:nth-of-type(2) button:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  transition: 1s;
+}
+
+/*=======================
+        MAIN #lastYear
+========================*/
+main {
+  /*=======================
+          MAIN #dataAndCard
+  ========================*/
+  /*=======================
+          MAIN #lastYear
+  ========================*/
+  /*=======================
+          MAIN #goldenBear
+  ========================*/
+  /*=======================
+          MAIN #poppyBear
+  ========================*/
+}
+main .lastYear {
+  background-color: #000;
+  color: rgb(255, 255, 255);
+}
+main .lastYear h2 {
+  width: 83vw;
+  margin: auto;
+}
+main .dataAndCard {
+  background: url("../img/map.svg") 100% 77%/39% no-repeat;
+  background-size: 40%;
+  background-color: #000;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  padding: 5vh 0;
+}
+main .dataAndCard div:nth-of-type(1) article {
+  width: 83vw;
+  margin: 8vh auto;
+}
+main .images article {
+  width: 37.5vw;
+  transform: translate(31.25vw);
+}
+main .images p {
+  line-height: 190%;
+  font-weight: 600;
+}
+main .images h2 {
+  line-height: 80%;
+  margin-bottom: 3vh;
+}
+main .images div:nth-of-type(1) img {
+  transform: translate(64vw, -8.5vh);
+  margin-bottom: 5vh;
+  width: 23.43vw;
+}
+main .images div:nth-of-type(2) img {
+  transform: translate(3vw, 4vh);
+  width: 18.75vw;
+}
+main .images div:nth-of-type(3) img {
+  transform: translate(81.25vw, -5vh);
+  width: 18.75vw;
+}
+main .images div:nth-of-type(4) img {
+  transform: translate(19vw, 8.5vh);
+  width: 23.43vw;
+}
+main .images div:nth-of-type(5) img {
+  transform: translate(61vw, -2vh);
+  width: 23.43vw;
+}
+main .images div:nth-of-type(6) img {
+  transform: translate(0vw, 9vh);
+  width: 18.75vw;
+}
+main .images div:nth-of-type(7) img {
+  transform: translate(57vw, 6vh);
+  width: 23.43vw;
+}
+main .goldenBear {
+  background-color: #000;
+  color: rgb(255, 255, 255);
+}
+main .goldenBear div:nth-of-type(1) {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 7vh;
+  width: 83vw;
+  margin: 25vh auto 7.7vh auto;
+}
+main .goldenBear div:nth-of-type(1) article:nth-of-type(1) {
+  width: 35%;
+}
+main .goldenBear div:nth-of-type(1) article:nth-of-type(1) h2 {
+  line-height: 80%;
+  margin-top: 3vh;
+}
+main .goldenBear div:nth-of-type(1) article:nth-of-type(2) {
+  width: 47%;
+}
+main .goldenBear div:nth-of-type(1) article:nth-of-type(2) h4 {
+  margin-bottom: 5vh;
+  line-height: 95%;
+}
+main .goldenBear div:nth-of-type(2) img:nth-of-type(1) {
+  width: 54.92vw;
+  transform: translate(15vw, -13.5vh);
+}
+main .goldenBear div:nth-of-type(2) img:nth-of-type(2) {
+  width: 27.96vw;
+}
+main .poppyBear {
+  width: 83vw;
+  margin: 30vh auto 8vh auto;
+}
+main .poppyBear div:nth-of-type(1) img {
+  transform: translate(77vw, 6vh);
+  width: 29vw;
+  animation: rotate 6.5s linear infinite; /* Animationseigenschaften */
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); /* Ausgangsposition */
+  }
+  to {
+    transform: rotate(360deg); /* Zielposition */
+  }
+}
+main .poppyBear div:nth-of-type(2) {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12vh;
+}
+main .poppyBear div:nth-of-type(2) article:nth-of-type(1) {
+  width: 30vw;
+}
+main .poppyBear div:nth-of-type(2) article:nth-of-type(1) p {
+  margin-bottom: 2vh;
+}
+main .poppyBear div:nth-of-type(2) article:nth-of-type(1) h2 {
+  line-height: 80%;
+}
+main .poppyBear div:nth-of-type(2) article:nth-of-type(2) {
+  width: 40vw;
+}
+main .poppyBear div:nth-of-type(2) article:nth-of-type(2) h4 {
+  line-height: 90%;
+  margin-bottom: 3vh;
+}
+main .poppyBear div:nth-of-type(3) img:nth-of-type(1) {
+  width: 27.96vw;
+  transform: translate(3vw, -13.5vh);
+}
+main .poppyBear div:nth-of-type(3) img:nth-of-type(2) {
+  width: 52.92vw;
+  transform: translate(-2vw, 0vh);
+}
+
+/*=======================
+        FOOTER
+========================*/
+footer {
+  padding: 9vh 8.5vw 12vh 8.5vw;
+}
+footer div {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+footer div article:nth-of-type(1) {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer div article:nth-of-type(1) h4 {
+  margin: 4vh 0 2vh 0;
+}
+footer div article:nth-of-type(1) div:nth-of-type(1) button {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  padding: 2vh 3.5vw;
+  margin: 0 0 10vh 0;
+  cursor: pointer;
+}
+footer div article:nth-of-type(1) div:nth-of-type(1) button:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  transition: 1s;
+}
+footer div article:nth-of-type(1) div:nth-of-type(2) {
+  width: 16%;
+  margin-bottom: 2vh;
+}
+footer div article:nth-of-type(1) div:nth-of-type(2) img {
+  width: 1.84vw;
+}
+footer div article:nth-of-type(1) p:nth-of-type(2) {
+  padding-bottom: 3.5vh;
+}
+footer div article:nth-of-type(2) div img {
+  width: 8vw;
+  margin-left: 1vw;
+}
+
+/*# sourceMappingURL=style.css.map */

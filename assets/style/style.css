@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/*=======================
+        GENERALS
+========================*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+@font-face {
+  font-family: WorkSans;
+  src: url("../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: Lora;
+  src: url("../fonts/Lora/Lora-VariableFont_wght.ttf");
+}
+@media only screen and (max-width: 600px) {
+  /* ========================================   
+              Media Queries
+  ==========================================*/
+  /*=======================
+          GLOBAL
+  ========================*/
+}
+/*=======================
+        GLOBAL
+========================*/
+html h1, html h2 {
+  font-size: 8.8rem;
+  font-family: "Lora", Lora;
+}
+html h3 {
+  font-size: 6.4rem;
+  font-family: "Lora", Lora;
+}
+html h4 {
+  font-size: 3.2rem;
+  font-family: "Lora", Lora;
+}
+html p {
+  font-size: 1.6rem;
+  font-family: "WorkSans", WorkSans;
+}
+html button {
+  font-size: 2rem;
+  font-family: "WorkSans", WorkSans;
+}
+html .bgcDark {
+  background-color: #000;
+  color: rgb(255, 255, 255);
+}
+html .bgcLight {
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+}
+
+/*=======================
+        ACHTUNG. LÖSCHEN
+========================*/
+/*=======================
+        HEADER
+========================*/
+header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+header div:nth-of-type(1) img {
+  height: 25.28vh;
+  margin-bottom: 12.64vh;
+}
+header div:nth-of-type(2) h1 {
+  line-height: 80%;
+}
+header div:nth-of-type(2) h1:nth-of-type(1) {
+  margin-top: 2vh;
+}
+header div:nth-of-type(2) h1:nth-of-type(2) {
+  color: black;
+  text-shadow: 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+  margin-bottom: 2vh;
+}
+header article {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-betweenss;
+}
+header article div:nth-of-type(1) img {
+  width: 4.22vw;
+  max-height: 7vh;
+}
+header article div:nth-of-type(2) button {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  padding: 2vh 3.5vw;
+  margin: 0;
+  cursor: pointer;
+}
+header article div:nth-of-type(2) button:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=style.css.map */
